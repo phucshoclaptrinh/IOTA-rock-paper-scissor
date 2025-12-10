@@ -1,0 +1,10 @@
+[package]
+name = "rock_paper_scissor"
+version = "0.0.1"
+edition = "2024"
+
+[dependencies]
+Iota = { git = "https://github.com/iotaledger/iota.git", subdir = "crates/iota-framework/packages/iota-framework", rev = "devnet" }
+
+[addresses]
+rock_paper_scissor = "0x0"
